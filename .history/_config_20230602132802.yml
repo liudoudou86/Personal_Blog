@@ -102,7 +102,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+  type: GitHub
   repo: https://gitee.com/liudoudou86/Personal_blog.git
   branch: master
-  message: 初始化模板
+  message: 
