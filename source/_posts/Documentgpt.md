@@ -13,15 +13,15 @@ categories: 提效工具
 #### 将chatGPT引入VSCode插件
 
 - 打开扩展并安装插件
-![](/images/Documentgpt/20230605174311.png)
+![img](/images/Documentgpt/20230605174311.png)
 
 - 打开一个空的文档，右键可以看到一个选项: Start documentGPT
-![](/images/Documentgpt/20230605174154.png)
+![img](/images/Documentgpt/20230605174154.png)
 
 - 将你想问的问题输入到弹出框中
-![](/images/Documentgpt/20230605174447.png)
+![img](/images/Documentgpt/20230605174447.png)
 
 - 可以看到插件已经将chatGPT的回答写入当前文档
-![](/images/Documentgpt/20230605174637.png)
+![img](/images/Documentgpt/20230605174637.png)
 
 #### 通过这种形式我们可以不必打开一个url就进行问题的检索，并且可以很直接的保存对话内容
