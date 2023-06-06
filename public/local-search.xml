@@ -1,68 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>生若直木, 不语斧凿</title>
+<search>
   
   
-  <link href="https://liudoudou86.gitee.io/personal_blog/atom.xml" rel="self"/>
-  
-  <link href="https://liudoudou86.gitee.io/personal_blog/"/>
-  <updated>2023-06-06T04:23:28.757Z</updated>
-  <id>https://liudoudou86.gitee.io/personal_blog/</id>
-  
-  <author>
-    <name>刘豆豆</name>
-    
-  </author>
-  
-  <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
     <title>将chatGPT引入个人工作流的一种探索</title>
-    <link href="https://liudoudou86.gitee.io/personal_blog/[object%20Object]/2023/06/05/Documentgpt/"/>
-    <id>https://liudoudou86.gitee.io/personal_blog/[object%20Object]/2023/06/05/Documentgpt/</id>
-    <published>2023-06-05T09:24:30.000Z</published>
-    <updated>2023-06-06T04:23:28.757Z</updated>
+    <link href="/personal_blog/%5Bobject%20Object%5D/2023/06/05/Documentgpt/"/>
+    <url>/personal_blog/%5Bobject%20Object%5D/2023/06/05/Documentgpt/</url>
     
     <content type="html"><![CDATA[<h3 id="将chatGPT引入个人工作流的一种探索"><a href="#将chatGPT引入个人工作流的一种探索" class="headerlink" title="将chatGPT引入个人工作流的一种探索"></a>将chatGPT引入个人工作流的一种探索</h3><blockquote><p>2023年上半年可能最热门的话题就是chatGPT，这个能融入实际工作中的自然语言工具，已经让很多大厂看到了它商用的价值，本文将提供一种可以辅助个人工作流的方案</p></blockquote><h4 id="将chatGPT引入VSCode插件"><a href="#将chatGPT引入VSCode插件" class="headerlink" title="将chatGPT引入VSCode插件"></a>将chatGPT引入VSCode插件</h4><ul><li><p>打开扩展并安装插件<br><img src="/personal_blog/../images/Documentgpt/20230605174311.png"></p></li><li><p>打开一个空的文档，右键可以看到一个选项: Start documentGPT<br><img src="/personal_blog/../images/Documentgpt/20230605174154.png"></p></li><li><p>将你想问的问题输入到弹出框中<br><img src="/personal_blog/../images/Documentgpt/20230605174447.png"></p></li><li><p>可以看到插件已经将chatGPT的回答写入当前文档<br><img src="/personal_blog/../images/Documentgpt/20230605174637.png"></p></li></ul><h4 id="通过这种形式我们可以不必打开一个url就进行问题的检索，并且可以很直接的保存对话内容"><a href="#通过这种形式我们可以不必打开一个url就进行问题的检索，并且可以很直接的保存对话内容" class="headerlink" title="通过这种形式我们可以不必打开一个url就进行问题的检索，并且可以很直接的保存对话内容"></a>通过这种形式我们可以不必打开一个url就进行问题的检索，并且可以很直接的保存对话内容</h4>]]></content>
     
     
+    <categories>
       
+      <category>提效工具</category>
       
-    <summary type="html">&lt;h3 id=&quot;将chatGPT引入个人工作流的一种探索&quot;&gt;&lt;a href=&quot;#将chatGPT引入个人工作流的一种探索&quot; class=&quot;headerlink&quot; title=&quot;将chatGPT引入个人工作流的一种探索&quot;&gt;&lt;/a&gt;将chatGPT引入个人工作流的一种探索&lt;/h3&gt;&lt;</summary>
+    </categories>
+    
+    
+    <tags>
       
-    
-    
-    
-    <category term="提效工具" scheme="https://liudoudou86.gitee.io/personal_blog/categories/%E6%8F%90%E6%95%88%E5%B7%A5%E5%85%B7/"/>
-    
-    
-    <category term="VSCode插件" scheme="https://liudoudou86.gitee.io/personal_blog/tags/VSCode%E6%8F%92%E4%BB%B6/"/>
+      <tag>VSCode插件</tag>
+      
+    </tags>
     
   </entry>
   
+  
+  
   <entry>
     <title>个人简介</title>
-    <link href="https://liudoudou86.gitee.io/personal_blog/[object%20Object]/2023/06/02/HomePage/"/>
-    <id>https://liudoudou86.gitee.io/personal_blog/[object%20Object]/2023/06/02/HomePage/</id>
-    <published>2023-06-02T09:05:10.000Z</published>
-    <updated>2023-06-06T02:20:49.357Z</updated>
+    <link href="/personal_blog/%5Bobject%20Object%5D/2023/06/02/HomePage/"/>
+    <url>/personal_blog/%5Bobject%20Object%5D/2023/06/02/HomePage/</url>
     
     <content type="html"><![CDATA[<h3 id="个人独白"><a href="#个人独白" class="headerlink" title="个人独白"></a>个人独白</h3><blockquote><p>本人江湖小虾米一枚，之所以这叫自己是江湖小虾米是因为从小就崇拜江湖大侠，博主小时候看的最多的可能就是各种武侠类小说，尤其是内功可是这玩意儿几乎不可能存在，长大之后尤其是工作之后发现自己只能是螺丝钉，但是当某一天接触到代码发现可以通过自己的双手创造出很多自己觉得有趣的东西，仅以此地纪念自己的心路历程。</p></blockquote><ul><li>不定期进行技术相关的文章</li><li>作为个人抒发情感的地方</li></ul>]]></content>
     
     
+    <categories>
       
+      <category>个人简介</category>
       
-    <summary type="html">&lt;h3 id=&quot;个人独白&quot;&gt;&lt;a href=&quot;#个人独白&quot; class=&quot;headerlink&quot; title=&quot;个人独白&quot;&gt;&lt;/a&gt;个人独白&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;本人江湖小虾米一枚，之所以这叫自己是江湖小虾米是因为从小就崇拜江湖大侠，博主小时候看的最多的可能就</summary>
+    </categories>
+    
+    
+    <tags>
       
-    
-    
-    
-    <category term="个人简介" scheme="https://liudoudou86.gitee.io/personal_blog/categories/%E4%B8%AA%E4%BA%BA%E7%AE%80%E4%BB%8B/"/>
-    
-    
-    <category term="个人简介" scheme="https://liudoudou86.gitee.io/personal_blog/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E4%BB%8B/"/>
+      <tag>个人简介</tag>
+      
+    </tags>
     
   </entry>
   
-</feed>
+  
+  
+  
+</search>

@@ -1,4 +1,8 @@
 ---
 title: {{ title }}
-tags:
+layout: about
+comment: false
+tags: 
+categories: 
+description: 
 ---
