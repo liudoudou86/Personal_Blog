@@ -16,23 +16,24 @@
   <meta name="author" content="刘豆豆">
   <meta name="keywords" content="">
   
-    <meta name="description" content="将chatGPT引入个人工作流的一种探索 2023年上半年可能最热门的话题就是chatGPT，这个能融入实际工作中的自然语言工具，已经让很多大厂看到了它商用的价值，本文将提供一种可以辅助个人工作流的方案  将chatGPT引入VSCode插件打开扩展并安装插件 打开一个空的文档，右键可以看到一个选项: Start documentGPT 将你想问的问题输入到弹出框中 可以看到插件已经将chatGP">
+    <meta name="description" content="将chatGPT引入个人工作流的一种探索 2023年上半年可能最热门的话题就是chatGPT，这个能融入实际工作中的自然语言工具，已经让很多大厂看到了它商用的价值，本文将提供一种可以辅助个人工作流的方案   自研VSCode插件 其实核心的代码就是以下内容 主要原理就是将问题通过API发送至chatGPT并将回答打印到当前激活的文档中  安装和使用 打开扩展并安装插件  打开VSCode的设置菜单">
 <meta property="og:type" content="article">
 <meta property="og:title" content="将chatGPT引入个人工作流的一种探索">
 <meta property="og:url" content="https://liudoudou86.gitee.io/personal_blog/[object%20Object]/2023/06/05/Documentgpt/index.html">
 <meta property="og:site_name" content="生若直木, 不语斧凿">
-<meta property="og:description" content="将chatGPT引入个人工作流的一种探索 2023年上半年可能最热门的话题就是chatGPT，这个能融入实际工作中的自然语言工具，已经让很多大厂看到了它商用的价值，本文将提供一种可以辅助个人工作流的方案  将chatGPT引入VSCode插件打开扩展并安装插件 打开一个空的文档，右键可以看到一个选项: Start documentGPT 将你想问的问题输入到弹出框中 可以看到插件已经将chatGP">
+<meta property="og:description" content="将chatGPT引入个人工作流的一种探索 2023年上半年可能最热门的话题就是chatGPT，这个能融入实际工作中的自然语言工具，已经让很多大厂看到了它商用的价值，本文将提供一种可以辅助个人工作流的方案   自研VSCode插件 其实核心的代码就是以下内容 主要原理就是将问题通过API发送至chatGPT并将回答打印到当前激活的文档中  安装和使用 打开扩展并安装插件  打开VSCode的设置菜单">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://liudoudou86.gitee.io/personal_blog/images/20230605174311.png">
-<meta property="og:image" content="https://liudoudou86.gitee.io/personal_blog/images/20230605174154.png">
-<meta property="og:image" content="https://liudoudou86.gitee.io/personal_blog/images/20230605174447.png">
-<meta property="og:image" content="https://liudoudou86.gitee.io/personal_blog/images/20230605174637.png">
+<meta property="og:image" content="https://liudoudou86.gitee.io/personal_blog/images/DocumentGPT/code01.png">
+<meta property="og:image" content="https://liudoudou86.gitee.io/personal_blog/images/DocumentGPT/20230605174311.png">
+<meta property="og:image" content="https://liudoudou86.gitee.io/personal_blog/images/DocumentGPT/20230605174154.png">
+<meta property="og:image" content="https://liudoudou86.gitee.io/personal_blog/images/DocumentGPT/20230605174447.png">
+<meta property="og:image" content="https://liudoudou86.gitee.io/personal_blog/images/DocumentGPT/20230605174637.png">
 <meta property="article:published_time" content="2023-06-05T09:24:30.000Z">
-<meta property="article:modified_time" content="2023-06-06T10:03:19.268Z">
+<meta property="article:modified_time" content="2023-06-07T02:09:01.329Z">
 <meta property="article:author" content="刘豆豆">
 <meta property="article:tag" content="VSCode插件">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://liudoudou86.gitee.io/personal_blog/images/20230605174311.png">
+<meta name="twitter:image" content="https://liudoudou86.gitee.io/personal_blog/images/DocumentGPT/code01.png">
   
   
   
@@ -226,7 +227,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          244 字
+          487 字
         
       </span>
     
@@ -237,7 +238,7 @@
         
         
         
-          3 分钟
+          5 分钟
         
       </span>
     
@@ -283,11 +284,26 @@
                 <h3 id="将chatGPT引入个人工作流的一种探索"><a href="#将chatGPT引入个人工作流的一种探索" class="headerlink" title="将chatGPT引入个人工作流的一种探索"></a>将chatGPT引入个人工作流的一种探索</h3><blockquote>
 <p>2023年上半年可能最热门的话题就是chatGPT，这个能融入实际工作中的自然语言工具，已经让很多大厂看到了它商用的价值，本文将提供一种可以辅助个人工作流的方案</p>
 </blockquote>
-<h4 id="将chatGPT引入VSCode插件"><a href="#将chatGPT引入VSCode插件" class="headerlink" title="将chatGPT引入VSCode插件"></a>将chatGPT引入VSCode插件</h4><p>打开扩展并安装插件<br><img src="/personal_blog/images/20230605174311.png" srcset="/personal_blog/img/loading.gif" lazyload alt="20230605174311"></p>
-<p>打开一个空的文档，右键可以看到一个选项: Start documentGPT<br><img src="/personal_blog/images/20230605174154.png" srcset="/personal_blog/img/loading.gif" lazyload alt="20230605174154"></p>
-<p>将你想问的问题输入到弹出框中<br><img src="/personal_blog/images/20230605174447.png" srcset="/personal_blog/img/loading.gif" lazyload alt="20230605174447"></p>
-<p>可以看到插件已经将chatGPT的回答写入当前文档<br><img src="/personal_blog/images/20230605174637.png" srcset="/personal_blog/img/loading.gif" lazyload alt="20230605174637"></p>
-<h4 id="通过这种形式我们可以不必打开一个url就进行问题的检索，并且可以很直接的保存对话内容"><a href="#通过这种形式我们可以不必打开一个url就进行问题的检索，并且可以很直接的保存对话内容" class="headerlink" title="通过这种形式我们可以不必打开一个url就进行问题的检索，并且可以很直接的保存对话内容"></a>通过这种形式我们可以不必打开一个url就进行问题的检索，并且可以很直接的保存对话内容</h4>
+<hr>
+<h4 id="自研VSCode插件"><a href="#自研VSCode插件" class="headerlink" title="自研VSCode插件"></a>自研VSCode插件</h4><ul>
+<li>其实核心的代码就是以下内容<br><img src="/personal_blog/images/DocumentGPT/code01.png" srcset="/personal_blog/img/loading.gif" lazyload alt="img"></li>
+<li>主要原理就是将问题通过API发送至chatGPT并将回答打印到当前激活的文档中</li>
+</ul>
+<h4 id="安装和使用"><a href="#安装和使用" class="headerlink" title="安装和使用"></a>安装和使用</h4><ul>
+<li><p>打开扩展并安装插件<br><img src="/personal_blog/images/DocumentGPT/20230605174311.png" srcset="/personal_blog/img/loading.gif" lazyload alt="img"></p>
+</li>
+<li><p>打开VSCode的设置菜单(右上角切换json显示)，修改配置项</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs awk">&#123;    <br>  <span class="hljs-string">&quot;documentGPT.url&quot;</span>: <span class="hljs-string">&quot;https://api.aigcfun.com/api/v1/text&quot;</span>, <span class="hljs-regexp">//</span> API地址<br>  <span class="hljs-string">&quot;documentGPT.key&quot;</span>: <span class="hljs-string">&quot;FCC78BJGVUPVLP491P&quot;</span> <span class="hljs-regexp">//</span> API请求的key<br>&#125;<br><br></code></pre></td></tr></table></figure>
+</li>
+<li><p>打开一个空的文档，鼠标右键可以看到一个选项: Start documentGPT<br><img src="/personal_blog/images/DocumentGPT/20230605174154.png" srcset="/personal_blog/img/loading.gif" lazyload alt="img"></p>
+</li>
+<li><p>将你想问的问题输入到弹出框中<br><img src="/personal_blog/images/DocumentGPT/20230605174447.png" srcset="/personal_blog/img/loading.gif" lazyload alt="img"></p>
+</li>
+<li><p>可以看到插件已经将chatGPT的回答写入当前文档<br><img src="/personal_blog/images/DocumentGPT/20230605174637.png" srcset="/personal_blog/img/loading.gif" lazyload alt="img"></p>
+</li>
+</ul>
+<p><em>通过以上方法我们就可以通过VSCode很容易的完成和AI的智能交互</em></p>
+
                 
               </div>
             
