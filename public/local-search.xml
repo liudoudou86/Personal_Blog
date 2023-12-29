@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>录制屏幕的浏览器工具</title>
+    <link href="/personal_blog/%5Bobject%20Object%5D/2023/12/29/ScreenRecord/"/>
+    <url>/personal_blog/%5Bobject%20Object%5D/2023/12/29/ScreenRecord/</url>
+    
+    <content type="html"><![CDATA[<h3 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h3><blockquote><p>本人小小tester由于工作原因经常需要录制操作视频提交Bug，各种录制工具都尝试过~ 不是收费就是太难用，忍无可忍当无须再忍。So 自己动手撸了一个浏览器的录制视频工具</p></blockquote><hr><h3 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h3><ul><li>当前版本使用chrome提供的WebRTC技术</li><li>备选方案使用rrweb + canvas</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>提效工具</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Chrome插件</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>管理账号密码的浏览器工具</title>
     <link href="/personal_blog/%5Bobject%20Object%5D/2023/08/02/AccountManagement/"/>
     <url>/personal_blog/%5Bobject%20Object%5D/2023/08/02/AccountManagement/</url>

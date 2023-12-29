@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://liudoudou86.gitee.io/personal_blog/[object%20Object]/2023/12/29/ScreenRecord/</loc>
+    
+    <lastmod>2023-12-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://liudoudou86.gitee.io/personal_blog/[object%20Object]/2023/08/02/AccountManagement/</loc>
     
     <lastmod>2023-08-04</lastmod>
@@ -40,7 +49,7 @@
 
   <url>
     <loc>https://liudoudou86.gitee.io/personal_blog</loc>
-    <lastmod>2023-08-04</lastmod>
+    <lastmod>2023-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -48,21 +57,21 @@
   
   <url>
     <loc>https://liudoudou86.gitee.io/personal_blog/tags/Chrome%E6%8F%92%E4%BB%B6/</loc>
-    <lastmod>2023-08-04</lastmod>
+    <lastmod>2023-12-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://liudoudou86.gitee.io/personal_blog/tags/VSCode%E6%8F%92%E4%BB%B6/</loc>
-    <lastmod>2023-08-04</lastmod>
+    <lastmod>2023-12-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://liudoudou86.gitee.io/personal_blog/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E4%BB%8B/</loc>
-    <lastmod>2023-08-04</lastmod>
+    <lastmod>2023-12-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -71,14 +80,14 @@
   
   <url>
     <loc>https://liudoudou86.gitee.io/personal_blog/categories/%E6%8F%90%E6%95%88%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2023-08-04</lastmod>
+    <lastmod>2023-12-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://liudoudou86.gitee.io/personal_blog/categories/%E4%B8%AA%E4%BA%BA%E7%AE%80%E4%BB%8B/</loc>
-    <lastmod>2023-08-04</lastmod>
+    <lastmod>2023-12-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

@@ -6,7 +6,7 @@
   <link href="https://liudoudou86.gitee.io/personal_blog/atom.xml" rel="self"/>
   
   <link href="https://liudoudou86.gitee.io/personal_blog/"/>
-  <updated>2023-08-04T07:45:19.875Z</updated>
+  <updated>2023-12-29T08:42:09.917Z</updated>
   <id>https://liudoudou86.gitee.io/personal_blog/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>录制屏幕的浏览器工具</title>
+    <link href="https://liudoudou86.gitee.io/personal_blog/[object%20Object]/2023/12/29/ScreenRecord/"/>
+    <id>https://liudoudou86.gitee.io/personal_blog/[object%20Object]/2023/12/29/ScreenRecord/</id>
+    <published>2023-12-29T08:34:25.000Z</published>
+    <updated>2023-12-29T08:42:09.917Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="背景介绍"><a href="#背景介绍" class="headerlink" title="背景介绍"></a>背景介绍</h3><blockquote><p>本人小小tester由于工作原因经常需要录制操作视频提交Bug，各种录制工具都尝试过~ 不是收费就是太难用，忍无可忍当无须再忍。So 自己动手撸了一个浏览器的录制视频工具</p></blockquote><hr><h3 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h3><ul><li>当前版本使用chrome提供的WebRTC技术</li><li>备选方案使用rrweb + canvas</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;背景介绍&quot;&gt;&lt;a href=&quot;#背景介绍&quot; class=&quot;headerlink&quot; title=&quot;背景介绍&quot;&gt;&lt;/a&gt;背景介绍&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;本人小小tester由于工作原因经常需要录制操作视频提交Bug，各种录制工具都尝试过~ 不是收费就</summary>
+      
+    
+    
+    
+    <category term="提效工具" scheme="https://liudoudou86.gitee.io/personal_blog/categories/%E6%8F%90%E6%95%88%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="Chrome插件" scheme="https://liudoudou86.gitee.io/personal_blog/tags/Chrome%E6%8F%92%E4%BB%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>管理账号密码的浏览器工具</title>
