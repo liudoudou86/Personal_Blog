@@ -12,7 +12,7 @@ categories: 提效工具
 
 ---
 
-### Chrome插件
+### Chrome 插件
 
 - 先上展台, 各位老板儿请上眼
 
@@ -26,31 +26,31 @@ categories: 提效工具
 
 #### 插件使用
 
-- 当前有两种方法: 
+- 当前有两种方法:
 
-  - 一种是通过导入Excel文档将账号密码批量的存入插件中
+  - 一种是通过导入 Excel 文档将账号密码批量的存入插件中
 
     ![img](/images/AccountManagement/20230804153129.png)
 
-  - 一种是通过打开网址Url
-  
+  - 一种是通过打开网址 Url
+
     ① 输入好账号和密码
 
-      ![img](/images/AccountManagement/20230804153341.png)
+    ![img](/images/AccountManagement/20230804153341.png)
 
     ② 点击插件【添加账号】按钮
 
-      ![img](/images/AccountManagement/20230804153512.png)
+    ![img](/images/AccountManagement/20230804153512.png)
 
-> *⚠️ 以上两种方式都可以把账号密码存入插件永久保存*
+> _⚠️ 以上两种方式都可以把账号密码存入插件永久保存_
 
 - 点击【一键登录】按钮
 
   ![img](/images/AccountManagement/20230804154116.png)
 
-  - 如果当前Web标签页是想登录系统即完成直接输入账号密码的登录动作
+  - 如果当前 Web 标签页是想登录系统即完成直接输入账号密码的登录动作
 
-  - 如果当前Web标签页不是想登录系统即完成跳转等待3s后输入账号密码的登录动作
+  - 如果当前 Web 标签页不是想登录系统即完成跳转等待 3s 后输入账号密码的登录动作
 
 - 点击【复制】按钮
 
