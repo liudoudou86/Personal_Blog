@@ -30,7 +30,7 @@ categories: 提效工具
 
   - 第一种就是通过 Settings 的界面
 
-    ![img](/images/DocumentGPT/20230804140337.png)
+    ![img](/images/DocumentGPT/20240327145815.png)
 
   - 第二种就是通过 Settings 的 json
 
@@ -38,6 +38,7 @@ categories: 提效工具
   {
     "documentGPT.url": "https://api.aigcfun.com/api/v1/text", // API请求接口
     "documentGPT.key": "FCYLFSDJ47RHP9JG2N", // API请求Key
+    "documentGPT.model": "GTP-3.5", // 模型选择
     "documentGPT.prompt": "我想让你充当前端开发专家。我将提供一些关于Js、Node等前端代码问题的具体信息，而你的工作就是想出为我解决问题的策略。" // 新增prompt模板可以自行修改
   }
   ```
